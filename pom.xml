@@ -60,7 +60,6 @@
 
     <modules>
         <module>api-gateway</module>
-        <module>department-service</module>
         <module>hotel-common</module>
         <module>hotel-service</module>
         <module>rating-service</module>

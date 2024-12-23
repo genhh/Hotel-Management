@@ -70,15 +70,6 @@ This application provides the following features:
 - MongoDB
 - Git
 
-## Getting Started
-To get started with the project, make sure you have the required tools and dependencies installed.
-
-### Installation
-1. Clone this repository: `git clone https://github.com/Amanastel/Hotel-Management-Microservices.git`
-2. Navigate to the project directory: `cd Hotel-Management-Microservices`
-
-### Configuration
-- Configure the properties of each microservice according to your requirements.
 
 ### Usage
 - Run each microservice individually to start the Hotel Management system.
@@ -90,11 +81,6 @@ To get started with the project, make sure you have the required tools and depen
 
 Instances currently registered with Eureka:
 
-- **API-GATEWAY**:
-  - Availability Zones: UP (1) - `192.168.1.4:API-GATEWAY:8086`
-
-- **CONFIG-SERVER**:
-  - Availability Zones: UP (1) - `192.168.1.4:CONFIG-SERVER:8085`
 
 - **HOTELS-SERVICE**:
   - Availability Zones: UP (1) - `192.168.1.4:hotels-service:8082`
@@ -105,7 +91,6 @@ Instances currently registered with Eureka:
 - **USERS-SERVICE**:
   - Availability Zones: UP (1) - `192.168.1.4:users-service:8081`
 
-- **API Gateway Default URL**: `http://localhost:8086`
 
 ### User Service Routes
 - User login: `http://localhost:8086/auth/login`
@@ -143,7 +128,7 @@ Instances currently registered with Eureka:
 
 3 更换注册中心eureka为Nacos √ 顺带也是配置中心
 
-4 节点逐步迁移 gateway √ 
+4 节点逐步迁移 api-gateway √  hotel-common√ hotel-service rating-service service-registry user-service
 
 4 加新业务? 支付订单 / 点赞酒店 /缓存 /锁 （队列/redis/分布式事务）
 
@@ -163,7 +148,7 @@ Instances currently registered with Eureka:
 127.0.0.1 gateway-service
 127.0.0.1 hotel-frontend
 ```
-## run
+## GetStarted
 1 部署环境命令:
 ```shell
 docker-compose -f ./docker-compose/docker-compose-env.yml up -d
@@ -182,7 +167,6 @@ rocktmqbroker 10909 10911
 seata 8091 
 
 ### service:
-GATEWAY 8086`
 HOTELS-SERVICE 8082
 RATING-SERVICE 8083
 USERS-SERVICE 8081
@@ -196,5 +180,6 @@ PRAISE_PROVIDER_PORT=8015
 PRAISE_CONSUMER_PORT=8014
 
 ## Reference
+https://github.com/Amanastel/Hotel-Management-Microservices.git
 
 springCloudAlibaba
