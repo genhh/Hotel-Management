@@ -1,0 +1,17 @@
+com\zh\hotel\entity\Room.class
+com\zh\hotel\entity\Booking.class
+com\zh\hotel\mapper\WalletMapper.class
+com\zh\hotel\entity\PaymentStatus.class
+com\zh\hotel\mapper\RatingMapper.class
+com\zh\hotel\entity\Rating.class
+com\zh\hotel\mapper\UserMapper.class
+com\zh\hotel\entity\Wallet.class
+com\zh\hotel\entity\Transactions.class
+com\zh\hotel\mapper\BookingMapper.class
+com\zh\hotel\mapper\RoomMapper.class
+com\zh\hotel\entity\Hotel.class
+com\zh\hotel\entity\User.class
+com\zh\hotel\mapper\HotelMapper.class
+com\zh\hotel\entity\Status.class
+com\zh\hotel\entity\BookingStatus.class
+com\zh\hotel\entity\TransactionType.class

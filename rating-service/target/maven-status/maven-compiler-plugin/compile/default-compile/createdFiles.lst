@@ -1,0 +1,7 @@
+com\lcwd\rating\exception\NotFoundException.class
+com\lcwd\rating\exception\GlobalExceptionHandler.class
+com\lcwd\rating\RatingServiceApplication.class
+com\lcwd\rating\service\RatingService.class
+com\lcwd\rating\service\Impl\RatingServiceImpl.class
+com\lcwd\rating\exception\ErrorDetails.class
+com\lcwd\rating\controller\RatingController.class
