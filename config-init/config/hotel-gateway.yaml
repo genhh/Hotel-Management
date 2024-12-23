@@ -26,3 +26,7 @@ spring:
           uri: lb://integrated-consumer
           predicates:
             - Path=/praise/query
+        - id: hotel-service
+          uri: lb://hotel-service
+          predicates:
+            - Path=/hotels/*
