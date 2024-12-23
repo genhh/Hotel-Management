@@ -15,4 +15,5 @@ spring:
         file-extension: yaml
   config:
     import:
+      - optional:nacos:hotel-service.yaml
       - optional:nacos:datasource-config.yaml

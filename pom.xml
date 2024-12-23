@@ -14,7 +14,7 @@
 
     <groupId>com.hotel</groupId>
     <artifactId>Hotel-Management</artifactId>
-    <version>${revision}</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>hotel_manage</name>
     <description>hotel manage project</description>
@@ -42,7 +42,7 @@
         <spring.cloud.version>2023.0.3</spring.cloud.version>
 
         <!-- Spring Boot -->
-        <spring-boot.version>3.2.9</spring-boot.version>
+        <spring-boot.version>3.2.0</spring-boot.version>
 
         <!-- Maven Plugin Versions -->
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
@@ -89,7 +89,7 @@
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-                <version>${project.version}</version>
+                <version>${revision}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

@@ -3,14 +3,17 @@ server:
 
 spring:
   application:
-    name: hotels-service
-  datasource:
-    url: jdbc:mysql://localhost:3306/hotel_manage?serverTimezone=UTC
-    username: root
-    password: 123456
-    driver-class-name: com.mysql.cj.jdbc.Driver
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+    name: hotel-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nacos-server:8848
+        group: hotel-example
+      config:
+        server-addr: nacos-server:8848
+        group: hotel-example
+        file-extension: yaml
+  config:
+    import:
+      - optional:nacos:hotel-service.yaml
+      - optional:nacos:datasource-config.yaml

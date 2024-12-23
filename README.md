@@ -128,7 +128,9 @@ Instances currently registered with Eureka:
 
 3 更换注册中心eureka为Nacos √ 顺带也是配置中心
 
-4 节点逐步迁移 api-gateway √  hotel-common√ hotel-service rating-service service-registry user-service
+4 节点逐步迁移(改nacos客户端依赖，改application,改数据库) 
+
+api-gateway √  hotel-common√ hotel-service rating-service service-registry user-service
 
 4 加新业务? 支付订单 / 点赞酒店 /缓存 /锁 （队列/redis/分布式事务）
 
@@ -183,3 +185,6 @@ PRAISE_CONSUMER_PORT=8014
 https://github.com/Amanastel/Hotel-Management-Microservices.git
 
 springCloudAlibaba
+
+## 遇到的问题及解决方案
+[Invalid value type for attribute ‘factoryBeanObjectType‘: java.lang.String](https://blog.csdn.net/u013737132/article/details/134938131)
