@@ -3,19 +3,19 @@ server:
 
 spring:
   application:
-    name: integrated-order
+    name: hotel-order
   cloud:
     nacos:
       discovery:
         server-addr: nacos-server:8848
-        group: integrated-example
+        group: hotel-example
       config:
         server-addr: nacos-server:8848
-        group: integrated-example
+        group: hotel-example
         file-extension: yaml
   config:
     import:
-      - optional:nacos:integrated-order.yaml
+      - optional:nacos:hotel-order.yaml
       - optional:nacos:datasource-config.yaml
 
 seata:
@@ -23,6 +23,6 @@ seata:
   tx-service-group: ${spring.application.name}-group
   service:
     vgroup-mapping:
-      integrated-order-group: default
+      hotel-order-group: default
     grouplist:
       default: seata-server:8091

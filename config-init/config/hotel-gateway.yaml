@@ -3,27 +3,27 @@ spring:
     gateway:
       routes:
         - id: placeOrder
-          uri: lb://integrated-order
+          uri: lb://hotel-order
           predicates:
             - Path=/order/create
         - id: queryStorage
-          uri: lb://integrated-storage
+          uri: lb://hotel-storage
           predicates:
             - Path=/storage/
         - id: queryAccount
-          uri: lb://integrated-account
+          uri: lb://hotel-account
           predicates:
             - Path=/account/
         - id: praiseItemRocketMQ
-          uri: lb://integrated-provider
+          uri: lb://hotel-provider
           predicates:
             - Path=/praise/rocketmq
         - id: praiseItemSentinel
-          uri: lb://integrated-provider
+          uri: lb://hotel-provider
           predicates:
             - Path=/praise/sentinel
         - id: queryPraise
-          uri: lb://integrated-consumer
+          uri: lb://hotel-consumer
           predicates:
             - Path=/praise/query
         - id: hotel-service

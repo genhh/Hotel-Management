@@ -3,18 +3,21 @@ server:
 
 spring:
   application:
-    name: integrated-storage
+    name: hotel-storage
   cloud:
     nacos:
       discovery:
         server-addr: nacos-server:8848
-        group: integrated-example
+        group: hotel-example
       config:
         server-addr: nacos-server:8848
-        group: integrated-example
+        group: hotel-example
+      refresh-enabled: true
+      auto-refresh: true
+      enable-remote-sync-config: true
   config:
     import:
-      - optional:nacos:integrated-storage.yaml
+      - optional:nacos:hotel-storage.yaml
       - optional:nacos:datasource-config.yaml
 
 seata:
@@ -22,7 +25,7 @@ seata:
   tx-service-group: ${spring.application.name}-group
   service:
     vgroup-mapping:
-      integrated-storage-group: default
+      hotel-storage-group: default
     grouplist:
       default: seata-server:8091
 

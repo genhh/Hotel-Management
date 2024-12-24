@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 /**
  * @author TrevorLink
  */
-@FeignClient(name = "integrated-storage")
+@FeignClient(name = "hotel-storage")
 public interface StorageServiceFeignClient {
 
 	@PostMapping("/storage/reduce-stock")

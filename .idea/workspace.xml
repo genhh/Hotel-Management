@@ -4,68 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c94b040-9b6d-4a9a-9079-29fa739cb377" name="Changes" comment="change">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9c94b040-9b6d-4a9a-9079-29fa739cb377" name="Changes" comment="add new logic">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/allclasses-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/allpackages-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/Booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/Booking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/BookingStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/BookingStatus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/Hotel.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/Hotel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/PaymentStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/PaymentStatus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/Rating.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/Rating.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/Room.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/Room.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/Status.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/Status.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/TransactionType.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/TransactionType.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/Transactions.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/Transactions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/User.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/User.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/Wallet.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/Wallet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/Booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/Booking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/BookingStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/BookingStatus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/Hotel.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/Hotel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/PaymentStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/PaymentStatus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/Rating.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/Rating.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/Room.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/Room.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/Status.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/Status.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/TransactionType.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/TransactionType.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/Transactions.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/Transactions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/User.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/User.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/Wallet.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/class-use/Wallet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/entity/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/BookingMapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/BookingMapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/HotelMapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/HotelMapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/RatingMapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/RatingMapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/RoomMapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/RoomMapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/UserMapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/UserMapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/WalletMapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/WalletMapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/class-use/BookingMapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/class-use/BookingMapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/class-use/HotelMapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/class-use/HotelMapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/class-use/RatingMapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/class-use/RatingMapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/class-use/RoomMapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/class-use/RoomMapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/class-use/UserMapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/class-use/UserMapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/class-use/WalletMapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/class-use/WalletMapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/com/zh/hotel/mapper/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/element-list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/index-all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/member-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/overview-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/package-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/package-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/tag-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/tag-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/apidocs/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/apidocs/type-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/maven-javadoc-plugin-stale-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/maven-javadoc-plugin-stale-data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-init/config/datasource-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-init/config/datasource-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-init/config/hotel-gateway.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-init/config/hotel-gateway.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-init/config/hotel-storage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-init/config/hotel-storage.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-frontend/src/main/resources/templates/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-frontend/src/main/resources/templates/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-order/src/main/java/com/alibaba/cloud/integration/order/feign/AccountServiceFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-order/src/main/java/com/alibaba/cloud/integration/order/feign/AccountServiceFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-order/src/main/java/com/alibaba/cloud/integration/order/feign/StorageServiceFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-order/src/main/java/com/alibaba/cloud/integration/order/feign/StorageServiceFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-order/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-order/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-storage/.flattened-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-storage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-storage/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-storage/src/main/java/com/alibaba/cloud/integration/storage/StorageServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-storage/src/main/java/com/alibaba/cloud/integration/storage/StorageServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-storage/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-storage/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,13 +78,26 @@
       <recent name="com.lcwd.hotel.entities" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HotelServiceApplication">
+  <component name="RunManager" selected="Compound.mircoServiceHotelManage">
     <configuration name="AServiceRegistryApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aman.astel.serviceregistry.AServiceRegistryApplication" />
       <module name="service-registry" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.aman.astel.serviceregistry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alibaba.cloud.integration.account.AccountServiceApplication" />
+      <module name="hotel-account" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alibaba.cloud.integration.account.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,9 +131,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FrontendApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alibaba.cloud.integration.frontend.FrontendApplication" />
+      <module name="hotel-frontend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alibaba.cloud.integration.frontend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HotelServiceApplication" type="Application" factoryName="Application" folderName="New Folder" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lcwd.hotel.HotelServiceApplication" />
       <module name="hotel-service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alibaba.cloud.integration.order.OrderServiceApplication" />
+      <module name="hotel-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alibaba.cloud.integration.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,6 +190,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StorageServiceApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alibaba.cloud.integration.storage.StorageServiceApplication" />
+      <module name="hotel-storage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alibaba.cloud.integration.storage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserServiceApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lcwd.user.service.Service.UserServiceApplication" />
       <module name="user-service" />
@@ -211,11 +217,11 @@
       </method>
     </configuration>
     <configuration name="mircoServiceHotelManage" type="CompoundRunConfigurationType">
-      <toRun name="AServiceRegistryApplication" type="Application" />
+      <toRun name="AccountServiceApplication" type="Application" />
       <toRun name="ApiGatewayApplication" type="Application" />
-      <toRun name="HotelServiceApplication" type="Application" />
-      <toRun name="RatingServiceApplication" type="Application" />
-      <toRun name="UserServiceApplication" type="Application" />
+      <toRun name="FrontendApplication" type="Application" />
+      <toRun name="OrderServiceApplication" type="Application" />
+      <toRun name="StorageServiceApplication" type="Application" />
       <method v="2" />
     </configuration>
     <list>
@@ -225,6 +231,10 @@
       <item itemvalue="Application.RatingServiceApplication" />
       <item itemvalue="Application.ApiGatewayApplication" />
       <item itemvalue="Application.ServiceRegistryApplication" />
+      <item itemvalue="Application.AccountServiceApplication" />
+      <item itemvalue="Application.FrontendApplication" />
+      <item itemvalue="Application.OrderServiceApplication" />
+      <item itemvalue="Application.StorageServiceApplication" />
       <item itemvalue="Application.ConfigServerApplication" />
       <item itemvalue="Compound.mircoServiceHotelManage" />
     </list>
@@ -315,7 +325,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735021960992</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add new logic">
+      <option name="closed" value="true" />
+      <created>1735037811161</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1735037811161</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add new logic">
+      <option name="closed" value="true" />
+      <created>1735037850019</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1735037850019</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -337,7 +363,8 @@
     <MESSAGE value="config file" />
     <MESSAGE value="hotel-service" />
     <MESSAGE value="change" />
-    <option name="LAST_COMMIT_MESSAGE" value="change" />
+    <MESSAGE value="add new logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new logic" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Hotel_Management_Microservices$ApiGatewayApplication.ic" NAME="ApiGatewayApplication Coverage Results" MODIFIED="1734702538223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -132,7 +132,7 @@ Instances currently registered with Eureka:
 
 api-gateway √  hotel-common√ hotel-service√ 
 
-frontend storage account order
+frontend storage account order(http://integrated-frontend:8080/order)
 
 provider consumer
 
@@ -153,7 +153,7 @@ rating-service service-registry user-service
 127.0.0.1 nacos-server
 127.0.0.1 seata-server
 127.0.0.1 rocketmq
-127.0.0.1 gateway-service
+127.0.0.1 hotel-gateway
 127.0.0.1 hotel-frontend
 ```
 ## GetStarted
@@ -194,3 +194,5 @@ springCloudAlibaba
 
 ## 遇到的问题及解决方案
 [Invalid value type for attribute ‘factoryBeanObjectType‘: java.lang.String](https://blog.csdn.net/u013737132/article/details/134938131)
+
+nacos配置上传不更新 上dashboard进行手动更新

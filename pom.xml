@@ -68,6 +68,7 @@
         <module>hotel-frontend</module>
         <module>hotel-storage</module>
         <module>hotel-order</module>
+        <module>hotel-account</module>
     </modules>
 
     <dependencyManagement>

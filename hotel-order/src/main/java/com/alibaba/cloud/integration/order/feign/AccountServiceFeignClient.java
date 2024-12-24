@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 /**
  * @author TrevorLink
  */
-@FeignClient(name = "integrated-account")
+@FeignClient(name = "hotel-account")
 public interface AccountServiceFeignClient {
 
 	@PostMapping("/account/reduce-balance")
