@@ -130,7 +130,7 @@ Instances currently registered with Eureka:
 
 4 节点逐步迁移(改nacos客户端依赖，改application,改数据库) 
 
-api-gateway √  hotel-common√ hotel-service rating-service service-registry user-service
+api-gateway √  hotel-common√ hotel-service√ rating-service service-registry user-service
 
 4 加新业务? 支付订单 / 点赞酒店 /缓存 /锁 （队列/redis/分布式事务）
 
