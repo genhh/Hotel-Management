@@ -8,16 +8,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rating-service" />
-        <module name="api-gateway" />
-        <module name="user-service" />
+        <module name="hotel-order" />
         <module name="hotel-common" />
-        <module name="service-registry" />
+        <module name="api-gateway" />
+        <module name="hotel-frontend" />
+        <module name="user-service" />
+        <module name="hotel-storage" />
         <module name="hotel-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-server" target="17" />
       <module name="department-service" target="17" />
+      <module name="integrated-frontend" target="17" />
+      <module name="integrated-order" target="17" />
+      <module name="integrated-storage" target="17" />
+      <module name="service-registry" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -27,7 +33,13 @@
       <module name="config-server" options="-parameters" />
       <module name="department-service" options="-parameters" />
       <module name="hotel-common" options="-parameters" />
+      <module name="hotel-frontend" options="-parameters" />
+      <module name="hotel-order" options="-parameters" />
       <module name="hotel-service" options="-parameters" />
+      <module name="hotel-storage" options="-parameters" />
+      <module name="integrated-frontend" options="-parameters" />
+      <module name="integrated-order" options="-parameters" />
+      <module name="integrated-storage" options="-parameters" />
       <module name="rating-service" options="-parameters" />
       <module name="service-registry" options="-parameters" />
       <module name="user-service" options="-parameters" />

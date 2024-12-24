@@ -64,6 +64,10 @@
         <module>hotel-service</module>
         <module>rating-service</module>
         <module>user-service</module>
+
+        <module>hotel-frontend</module>
+        <module>hotel-storage</module>
+        <module>hotel-order</module>
     </modules>
 
     <dependencyManagement>

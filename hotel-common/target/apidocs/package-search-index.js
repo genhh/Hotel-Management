@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"com.zh.hotel.entity"},{"l":"com.zh.hotel.mapper"},{"l":"所有程序包","u":"allpackages-index.html"}];updateSearchResults();
+packageSearchIndex = [{"l":"com.zh.hotel"},{"l":"com.zh.hotel.entity"},{"l":"com.zh.hotel.mapper"},{"l":"所有程序包","u":"allpackages-index.html"}];updateSearchResults();
